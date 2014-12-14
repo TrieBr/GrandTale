@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Map Editor">
+      <UniqueIdentifier>{02506366-36c0-48bd-867d-61bf797b1e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map Editor">
+      <UniqueIdentifier>{80a7b317-349d-49c7-9201-54cba711140d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client Source Files">
+      <UniqueIdentifier>{644466d1-773b-4e02-b54b-3db0b262e058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation Editor">
+      <UniqueIdentifier>{71aaa5c9-595e-4b9e-852b-39933bd5c99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation Editor">
+      <UniqueIdentifier>{33ed29a9-3990-478e-806a-4141b6d7dc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Equipment Aligner">
+      <UniqueIdentifier>{4ec152aa-b031-4e53-ad89-c4c5c5c8ed8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Equipment Aligner">
+      <UniqueIdentifier>{6e9e3657-325e-41e5-b3d8-7d0405d166e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\COMMON">
+      <UniqueIdentifier>{3ba04962-cd00-42c1-ab5e-e1f819c2a8c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\mapEditor.h">
+      <Filter>Header Files\Map Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mapSaver.h">
+      <Filter>Header Files\Map Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tileSelector.h">
+      <Filter>Header Files\Map Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\animationEditor.h">
+      <Filter>Header Files\Animation Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\equipAligner.h">
+      <Filter>Header Files\Equipment Aligner</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files\Map Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mapEditor.cpp">
+      <Filter>Source Files\Map Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mapSaver.cpp">
+      <Filter>Source Files\Map Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tileSelector.cpp">
+      <Filter>Source Files\Map Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\gameEngineResources.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\mapData.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\mapHandler.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\mapReader.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\resourcePack.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\tilesetManager.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\backgroundManager.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\customAllegroInterface.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\crc32.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\animationEditor.cpp">
+      <Filter>Source Files\Animation Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\characterRenderer.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\characterAnimation.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\characterAnimationSequenceManager.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Client\src\characterImageManager.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\characterCustomization.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\equipAligner.cpp">
+      <Filter>Source Files\Equipment Aligner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\characterClass.cpp">
+      <Filter>Source Files\Client Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\mapCollisionData.cpp">
+      <Filter>Source Files\COMMON</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

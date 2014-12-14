@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{ce40f0a9-48c7-4aae-bb21-30488522d2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{9f4f2c61-b9aa-4a54-a048-35050f4edffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Game Engine">
+      <UniqueIdentifier>{813910ab-9b84-453e-9a63-684174c3f878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Entities">
+      <UniqueIdentifier>{7b8ef876-701c-46c5-8820-3d38b510f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Resource Management">
+      <UniqueIdentifier>{943cfb5e-b533-4b59-a0c9-56f4d6f97ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\UI Elements">
+      <UniqueIdentifier>{8097b276-4c11-4ab0-97c7-a3bd1f5de8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Character">
+      <UniqueIdentifier>{5073d78f-cac3-452a-87ba-29452d4c0606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Physics">
+      <UniqueIdentifier>{dada24a3-39d8-41f8-8fd6-49d8c5eec509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Misc">
+      <UniqueIdentifier>{5229d527-5bf6-48b6-831e-8473d7024c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Networking">
+      <UniqueIdentifier>{7782ea90-c0e3-4967-9ccd-3cdbaa482c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Worlds">
+      <UniqueIdentifier>{9e52fa81-59ef-4a85-a2e3-8fdf21d9978f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Map">
+      <UniqueIdentifier>{189feeb1-1f6d-4882-9331-0327fbd5204b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Game Engine">
+      <UniqueIdentifier>{93b94a1e-8a8e-4eef-a3b0-f3f468b50125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Entities">
+      <UniqueIdentifier>{f309df3b-4f49-4c32-89cf-4fccb533e6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Character">
+      <UniqueIdentifier>{da020aaf-f342-42c2-895f-10958cc859ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Misc">
+      <UniqueIdentifier>{9ac4ced2-bae1-4bf6-8203-9be8bc7f581b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Networking">
+      <UniqueIdentifier>{873f369e-376a-4825-abbf-aacbd73310fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Map">
+      <UniqueIdentifier>{e2169505-b925-48d2-9f36-c7749aaec3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Worlds">
+      <UniqueIdentifier>{35aa28f9-1fd9-4ad5-9447-a5b7d88cbb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Physics">
+      <UniqueIdentifier>{b19218b0-1fbc-4949-8c5b-a6b276c7b62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI Elements">
+      <UniqueIdentifier>{59c1380b-60fe-41e4-bf08-c677a78cbad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Resource Management">
+      <UniqueIdentifier>{5e746cab-9fb8-4ae1-8d7a-6a9b2774529d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\COMMON">
+      <UniqueIdentifier>{53b91c37-a492-4b6c-b12f-a1910113deaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Actions">
+      <UniqueIdentifier>{1994b557-60a2-4453-9989-8134654a5a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Items">
+      <UniqueIdentifier>{5c5d6070-3562-4e01-9495-aa24ddda133f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Skills">
+      <UniqueIdentifier>{cdadd71a-e523-4f08-9e3d-ddd87546375c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Skills">
+      <UniqueIdentifier>{6c84fdcd-e9df-4395-a5bb-c6aa04e7f8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Skills\Skill Handlers">
+      <UniqueIdentifier>{a49a28b8-c11a-4d95-aa93-3949fa67d402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Mobs">
+      <UniqueIdentifier>{dccf33ce-8ba2-43ea-b978-e2b0e86a6ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Mobs">
+      <UniqueIdentifier>{9c314c78-4539-47f7-b48f-b1dbf3b3bb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Mobs\Monsters">
+      <UniqueIdentifier>{cc21220a-444b-4252-aeb6-4c273d50a518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Mobs\Monsters">
+      <UniqueIdentifier>{a659e288-3146-403e-b3b6-f3a5c30e8ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Tooltips">
+      <UniqueIdentifier>{2103aedf-5007-41d4-8815-1042315cee5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Tooltips">
+      <UniqueIdentifier>{73b6bde6-2d31-41a1-981d-cf19dcb9b012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Items">
+      <UniqueIdentifier>{2e5ad1ab-9e9d-4903-ba89-55ab9f5be72e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\mainMenuPanelTransition.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\myData.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\packetIdentifiers.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\settings.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\abstractEntity.h">
+      <Filter>headers\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\abstractWorld.h">
+      <Filter>headers\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gameEngine.h">
+      <Filter>headers\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gameEngineResources.h">
+      <Filter>headers\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gameEngineFramerate.h">
+      <Filter>headers\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gameEngineLogger.h">
+      <Filter>headers\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\backgroundManager.h">
+      <Filter>headers\Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\button.h">
+      <Filter>headers\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterAnimation.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterRenderer.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterAnimationSequenceManager.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterCustomization.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterData.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterImageManager.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\crc32.h">
+      <Filter>headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\customAllegroInterface.h">
+      <Filter>headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityCharacterCreation.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityServerSelect.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityCharacterSelect.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityCharDeleteBox.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityErrorBox.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityLoginPanel.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityPlayer.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityPlayerDummy.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityPlayerMe.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gameServer.h">
+      <Filter>headers\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\globalFunctions.h">
+      <Filter>headers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\loginServer.h">
+      <Filter>headers\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\mapData.h">
+      <Filter>headers\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\mapReader.h">
+      <Filter>headers\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\mapHandler.h">
+      <Filter>headers\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\raceProperties.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\resourcePack.h">
+      <Filter>headers\Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\textbox.h">
+      <Filter>headers\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tilesetManager.h">
+      <Filter>headers\Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\worldGameMap.h">
+      <Filter>headers\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\worldMainMenu.h">
+      <Filter>headers\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\physicsController.h">
+      <Filter>headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityGUINamePlate.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityGUIMainBar.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Actions.h">
+      <Filter>headers\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityGUIChat.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityGUIInventory.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\iconManager.h">
+      <Filter>headers\Resource Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\abstractDraggableWindow.h">
+      <Filter>headers\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityGUICharacter.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common_src\item.h">
+      <Filter>headers\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common_src\abstractItemContainerCallback.h">
+      <Filter>headers\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\common_src\itemManager.h">
+      <Filter>headers\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\globalData.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\playerSpeechBubble.h">
+      <Filter>headers\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\entityGUISkills.h">
+      <Filter>headers\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\skillHandlerList.h">
+      <Filter>headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\abstractSkillHandlerDummy.h">
+      <Filter>headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\abstractSkillHandler.h">
+      <Filter>headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\skillHandlerFactory.h">
+      <Filter>headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\skillHandler_1.h">
+      <Filter>headers\Skills\Skill Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\skillHandlerRunner.h">
+      <Filter>headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\characterIconRenderer.h">
+      <Filter>headers\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\monster.h">
+      <Filter>headers\Mobs\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\monsterRenderer.h">
+      <Filter>headers\Mobs\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\monsterImageManager.h">
+      <Filter>headers\Mobs\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\mobDummy.h">
+      <Filter>headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\npc.h">
+      <Filter>headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tooltipManager.h">
+      <Filter>headers\Tooltips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tooltip.h">
+      <Filter>headers\Tooltips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\itemTooltip.h">
+      <Filter>headers\Tooltips</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\itemCustomizationDataFetch.h">
+      <Filter>headers\Items</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\myData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\abstractEntity.cpp">
+      <Filter>source\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\abstractWorld.cpp">
+      <Filter>source\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\backgroundManager.cpp">
+      <Filter>source\Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\button.cpp">
+      <Filter>source\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\characterAnimation.cpp">
+      <Filter>source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\characterRenderer.cpp">
+      <Filter>source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\characterAnimationSequenceManager.cpp">
+      <Filter>source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\characterImageManager.cpp">
+      <Filter>source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\crc32.cpp">
+      <Filter>source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\customAllegroInterface.cpp">
+      <Filter>source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityCharacterCreation.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityServerSelect.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityCharacterSelect.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityCharDeleteBox.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityErrorBox.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityLoginPanel.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityPlayer.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityPlayerMe.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gameEngine.cpp">
+      <Filter>source\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gameEngineResources.cpp">
+      <Filter>source\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gameEngineFramerate.cpp">
+      <Filter>source\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gameEngineLogger.cpp">
+      <Filter>source\Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gameServer.cpp">
+      <Filter>source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gameServerPackets_Incoming_General.cpp">
+      <Filter>source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\loginServer.cpp">
+      <Filter>source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\loginServerPackets.cpp">
+      <Filter>source\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\globalFunctions.cpp">
+      <Filter>source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\mapData.cpp">
+      <Filter>source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\mapHandler.cpp">
+      <Filter>source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\physicsController.cpp">
+      <Filter>source\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\textbox.cpp">
+      <Filter>source\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tilesetManager.cpp">
+      <Filter>source\Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resourcePack.cpp">
+      <Filter>source\Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\worldGameMap.cpp">
+      <Filter>source\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\worldMainMenu.cpp">
+      <Filter>source\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityPlayerDummy.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\characterCustomization.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\characterData.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityGUINamePlate.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityGUIMainBar.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Actions.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityGUIChat.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityGUIInventory.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\iconManager.cpp">
+      <Filter>source\Resource Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\abstractDraggableWindow.cpp">
+      <Filter>source\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityGUICharacter.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\item.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\characterCustomizationNetwork.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\itemManager.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\globalData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\equipmentConfiguration.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\playerSpeechBubble.cpp">
+      <Filter>source\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\entityGUISkills.cpp">
+      <Filter>source\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\skillManager.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\abstractSkillHandlerNetwork.cpp">
+      <Filter>source\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\skillHandlerList.cpp">
+      <Filter>source\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\skillHandlerRunner.cpp">
+      <Filter>source\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\abstractSkillHandlerDummyNetwork.cpp">
+      <Filter>source\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\characterIconRenderer.cpp">
+      <Filter>source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\characterClass.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\combatEntity.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\monsterImageManager.cpp">
+      <Filter>source\Mobs\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\monster.cpp">
+      <Filter>source\Mobs\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\monsterRenderer.cpp">
+      <Filter>source\Mobs\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\mob.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="mobClient.cpp">
+      <Filter>source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\mapCollisionData.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\collisionCheck.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\npc.cpp">
+      <Filter>source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tooltipManager.cpp">
+      <Filter>source\Tooltips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\itemTooltip.cpp">
+      <Filter>source\Tooltips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\itemCustomizationData.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\itemCustomizationDataFetch.cpp">
+      <Filter>source\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\combatEntityStats.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\miscPlayerData.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\common_src\formulas.cpp">
+      <Filter>source\COMMON</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

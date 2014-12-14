@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{6d158ff6-91c8-4d59-827d-a59a57c4d4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d4dbc88c-f59e-474e-a051-1625ce5bd813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Mysql">
+      <UniqueIdentifier>{f1610cf7-7e54-4664-ba72-23049316b456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers">
+      <UniqueIdentifier>{7ac2dc81-6a03-4774-af63-b3b24cb0108b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Game">
+      <UniqueIdentifier>{c8eff6cf-4d8b-443a-831e-9b0d81202d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Login">
+      <UniqueIdentifier>{89697ab8-679f-4948-b91c-54c1a8ac9bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Threading">
+      <UniqueIdentifier>{589b82e2-9899-4a0c-a42f-f00240b1c541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Login\Game Server Connections">
+      <UniqueIdentifier>{f69b298d-8d4f-4830-ab90-eadfafca9104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Login\Packets">
+      <UniqueIdentifier>{82a3d9a1-be4f-453d-8008-1eff768acde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Game\Packets">
+      <UniqueIdentifier>{bc6ba968-0c6c-431f-b5ed-cce19cad7d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Data Management">
+      <UniqueIdentifier>{8ed2d5eb-f28e-4ed6-8c9a-0c6a5d08ca38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Misc">
+      <UniqueIdentifier>{96f7bfd9-5df9-46ff-9ffe-98e30268ab37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Login\Game Server Connections\Packets">
+      <UniqueIdentifier>{f4bf51d3-f120-47db-ab96-aecbd364e067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Servers">
+      <UniqueIdentifier>{b4dc4ceb-3a8e-4188-948e-f643e2cdfe4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Servers\Game">
+      <UniqueIdentifier>{dc46f2dd-a137-46a3-96a8-b8596dd01264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Servers\Login">
+      <UniqueIdentifier>{f453b1d1-4d68-425f-8dd7-25353d4dc1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Servers\Login\Game Server Connections">
+      <UniqueIdentifier>{dd8d90e7-d12d-4df8-ac2c-8662e3dd0072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Servers\Game\Login Server Connection">
+      <UniqueIdentifier>{410c9875-7f30-44b6-97af-c3ca0e9913b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Database">
+      <UniqueIdentifier>{645bf215-e059-4944-b8d0-cdc232617318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Data Management">
+      <UniqueIdentifier>{a07540e3-9a48-471a-b428-7fe58bb7cb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Map">
+      <UniqueIdentifier>{5eb19561-a637-4ff1-86aa-f5f7a81d982d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Threading">
+      <UniqueIdentifier>{dc710f0f-96bb-4eb7-be64-fa012f7de9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\COMMON">
+      <UniqueIdentifier>{8ce6bcd1-b488-478c-9d21-5994b7f87cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Game\Inventory">
+      <UniqueIdentifier>{238a0e61-b1ba-4513-9a4f-70ce4cb9b3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Game\Inventory\Login Server Connection">
+      <UniqueIdentifier>{06fddd0d-73ec-4cc7-a72f-5ea8e46ae05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Servers\Game\Inventory\Login Server Connection\Packets">
+      <UniqueIdentifier>{b58fef01-cdc5-4d34-b563-2f68e90e4cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Skills">
+      <UniqueIdentifier>{5f5df789-e301-4d0b-9842-166d3de15941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Skills">
+      <UniqueIdentifier>{dff93844-3840-480f-b763-0d012f95c207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Skills\Skill Handlers">
+      <UniqueIdentifier>{45e5d145-383c-4772-b971-8dd97166d99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Mobs">
+      <UniqueIdentifier>{afeafd70-0bbd-4bba-b14e-291ee3733a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mobs">
+      <UniqueIdentifier>{41a91c70-0148-4fd8-8c10-a573d2cc4621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Combat System">
+      <UniqueIdentifier>{e6a6c68c-cc8d-4aaa-9bdf-efe032a98a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Combat System">
+      <UniqueIdentifier>{0f81147b-00cd-4c12-ae6f-ba60b334097b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\abstractClient.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\abstractServer.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GTGameServer.h">
+      <Filter>Headers\Servers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GTLoginServer.h">
+      <Filter>Headers\Servers\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GTGameClient.h">
+      <Filter>Headers\Servers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GTLoginClient.h">
+      <Filter>Headers\Servers\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gameServerLoginServerManager.h">
+      <Filter>Headers\Servers\Game\Inventory\Login Server Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginServerGameServerManager.h">
+      <Filter>Headers\Servers\Login\Game Server Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\characterCreate.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\characterDelete.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\characterSelect.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientAuthenticate.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\requestWorldList.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GTLoginServerClient.h">
+      <Filter>Headers\Servers\Game\Inventory\Login Server Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GTGameWorldClient.h">
+      <Filter>Headers\Servers\Login\Game Server Connections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database.h">
+      <Filter>Headers\Mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mapHandler.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gameMap.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientManager.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gameServerLoginServer_InterfaceData.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gameWorldSendData.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\prepareTransferTicket.h">
+      <Filter>Headers\Servers\Login\Game Server Connections\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\requestCharacterList.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\threadRunnable.h">
+      <Filter>Headers\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\verifyTicket.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\worldConnect.h">
+      <Filter>Headers\Servers\Game\Inventory\Login Server Connection\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverManager.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\worldSelect.h">
+      <Filter>Headers\Servers\Login\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\packetProcessor.h">
+      <Filter>Headers\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\playerPositionUpdate.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common_src\equipmentTypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\playerChatMessage.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\playerDisconnect.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\playerItemContainerOperation.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\playerEquipOperations.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\log.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common_src\itemManager.h">
+      <Filter>Headers\Servers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\chatChannel.h">
+      <Filter>Headers\Servers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common_src\skillTypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skillUser.h">
+      <Filter>Headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\abstractSkillHandler.h">
+      <Filter>Headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\attackTarget.h">
+      <Filter>Headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skillHandlerFactory.h">
+      <Filter>Headers\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\skillHandler_1.h">
+      <Filter>Headers\Skills\Skill Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\playerSkillOperations.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common_src\mob.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mobFactory.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common_src\stats.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common_src\combatEntity.h">
+      <Filter>Headers\Combat System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\monster.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mobAI.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mobAI_monster.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\settings.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mobNPC.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mobNPCFactory.h">
+      <Filter>Headers\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\itemCustomizationFetch.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\statCommand.h">
+      <Filter>Headers\Servers\Game\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\attackController.h">
+      <Filter>Headers\Combat System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\applicationEntryPoint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\log.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GTGameServer.cpp">
+      <Filter>Source\Servers\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GTGameClient.cpp">
+      <Filter>Source\Servers\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GTLoginClient.cpp">
+      <Filter>Source\Servers\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GTLoginServer.cpp">
+      <Filter>Source\Servers\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GTGameWorldClient.cpp">
+      <Filter>Source\Servers\Login\Game Server Connections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GTLoginServerClient.cpp">
+      <Filter>Source\Servers\Game\Login Server Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\abstractClient.cpp">
+      <Filter>Source\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\abstractServer.cpp">
+      <Filter>Source\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database.cpp">
+      <Filter>Source\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gameMap.cpp">
+      <Filter>Source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientManager.cpp">
+      <Filter>Source\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mapHandler.cpp">
+      <Filter>Source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverManager.cpp">
+      <Filter>Source\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\threadRunnable.cpp">
+      <Filter>Source\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\characterData.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\characterCustomization.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\item.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\characterCustomizationNetwork.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\itemManager.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\chatChannel.cpp">
+      <Filter>Source\Servers\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\skillUser.cpp">
+      <Filter>Source\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\abstractSkillHandlerNetwork.cpp">
+      <Filter>Source\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mobFactory.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\combatEntity.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\mob.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\monster.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mobAI_monster.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mobServer.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\mapCollisionData.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\collisionCheck.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mobNPCFactory.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mobNPC.cpp">
+      <Filter>Source\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\itemCustomizationData.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\combatEntityStats.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\miscPlayerData.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common_src\formulas.cpp">
+      <Filter>Source\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attackController.cpp">
+      <Filter>Source\Combat System</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+[x] Create Weapon lvls 1,2,3,4 Bow.
+[x] Create Weapon lvls 1,2,3,4 Dagger.
+[x] Create Weapon lvls 1,2,3,4 Fist.
+[ ] Create Weapon lvls 1,2,3,4 Great Axe.
+[-] Create Weapon lvls 1,2,3,4 Great Mace.
+[ ] Create Weapon lvls 1,2,3,4 Great Sword.
+[x] Create Weapon lvls 1,2,3,4 Mace.
+[ ] Create Weapon lvls 1,2,3,4 Axe.
+[x] Create Weapon lvls 1,2,3,4 Spear.
+[x] Create Weapon lvls 1,2,3,4 Staff.
+[ ] Create Weapon lvls 1,2,3,4 Sword.
+[x] Create Weapon lvls 1,2,3,4 Throwing.
+[ ] Create Weapon lvls 1,2,3,4 Wand.
+[ ] Create Shield "lvls 1,2,3,4" Shield.
+---------------------------------------------------
+[x] Create Beginners Clothes for Good Faction.
+[x] Create Beginners Clothes for Bad Faction.
+[x] Create 8 Different Hairstyles for Male.
+[-] Create 8 Different Hairstyles for Female.
+---------------------------------------------------
+[ ] Create atleast 20 different Facial Headgears.
+[ ] Create around 108 different Upper Headgears.
+---------------------------------------------------

@@ -1,0 +1,16 @@
+0 = Idle
+1 = Jump
+2 = Fall
+3 = Run
+4 = Ninja Run
+5 = Punch
+6 = Throw Spell
+7 = 2 Handed Run
+8 = 2 Handed Attack01 (not including spear)
+9 = Spear Attack01
+10 = Main Hand attack01
+11 = Off Hand attack01
+12 = Idle 2 Handed
+13 = 2 Handed Jump
+14 = 2 Handed Fall
+15 = Bow Attack01

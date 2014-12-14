@@ -1,0 +1,11 @@
+[x] Fix equipment window so the player is in the proper animation for the type of weapon equipped
+[x] Clip the player in the equipment window so it does't go out of the preview region
+[ ] Add scrollbars
+[ ] Add scroll bar to inventory
+[ ] Make the chat entry able to de-focus
+[-] Add depth to clicks, so clicks don't activate things underneath them (such as window dragging)
+  [ ] Add depth to buttons, Make their events handled in HandleEvent instead of update event
+[x] Implement health and mana bars on GUI
+[x] Fix depth on GUI so the players are behind them.
+[x] Make the "Character" icon show the players face
+

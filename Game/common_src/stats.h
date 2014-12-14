@@ -1,0 +1,20 @@
+
+#ifndef _H_STATS
+#define _H_STATS
+enum statTypes {
+	STAT_STR,
+	STAT_DEX,
+	STAT_AGI,
+	STAT_VIT,
+	STAT_LUK,
+	STAT_INT,
+	STAT_ATK,
+	STAT_MAGIC_ATK,
+	STAT_DEF,
+	STAT_MAGIC_DEF,
+	STAT_HP,
+	STAT_MP,
+	STAT_COUNT
+};
+
+#endif

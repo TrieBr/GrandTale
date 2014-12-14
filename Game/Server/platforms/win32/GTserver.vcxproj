@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\common_src\combatEntity.h" />
+    <ClInclude Include="..\..\..\common_src\equipmentTypes.h" />
+    <ClInclude Include="..\..\..\common_src\itemManager.h" />
+    <ClInclude Include="..\..\..\common_src\mob.h" />
+    <ClInclude Include="..\..\..\common_src\skillTypes.h" />
+    <ClInclude Include="..\..\..\common_src\stats.h" />
+    <ClInclude Include="..\..\src\abstractClient.h" />
+    <ClInclude Include="..\..\src\abstractServer.h" />
+    <ClInclude Include="..\..\src\abstractSkillHandler.h" />
+    <ClInclude Include="..\..\src\attackController.h" />
+    <ClInclude Include="..\..\src\attackTarget.h" />
+    <ClInclude Include="..\..\src\characterCreate.h" />
+    <ClInclude Include="..\..\src\characterDelete.h" />
+    <ClInclude Include="..\..\src\characterSelect.h" />
+    <ClInclude Include="..\..\src\chatChannel.h" />
+    <ClInclude Include="..\..\src\clientAuthenticate.h" />
+    <ClInclude Include="..\..\src\clientManager.h" />
+    <ClInclude Include="..\..\src\database.h" />
+    <ClInclude Include="..\..\src\gameMap.h" />
+    <ClInclude Include="..\..\src\gameServerLoginServerManager.h" />
+    <ClInclude Include="..\..\src\gameServerLoginServer_InterfaceData.h" />
+    <ClInclude Include="..\..\src\gameWorldSendData.h" />
+    <ClInclude Include="..\..\src\GTGameClient.h" />
+    <ClInclude Include="..\..\src\GTGameServer.h" />
+    <ClInclude Include="..\..\src\GTGameWorldClient.h" />
+    <ClInclude Include="..\..\src\GTLoginClient.h" />
+    <ClInclude Include="..\..\src\GTLoginServer.h" />
+    <ClInclude Include="..\..\src\GTLoginServerClient.h" />
+    <ClInclude Include="..\..\src\itemCustomizationFetch.h" />
+    <ClInclude Include="..\..\src\log.h" />
+    <ClInclude Include="..\..\src\loginServerGameServerManager.h" />
+    <ClInclude Include="..\..\src\mapHandler.h" />
+    <ClInclude Include="..\..\src\mobAI.h" />
+    <ClInclude Include="..\..\src\mobAI_monster.h" />
+    <ClInclude Include="..\..\src\mobFactory.h" />
+    <ClInclude Include="..\..\src\mobNPC.h" />
+    <ClInclude Include="..\..\src\mobNPCFactory.h" />
+    <ClInclude Include="..\..\src\monster.h" />
+    <ClInclude Include="..\..\src\packetProcessor.h" />
+    <ClInclude Include="..\..\src\playerChatMessage.h" />
+    <ClInclude Include="..\..\src\playerDisconnect.h" />
+    <ClInclude Include="..\..\src\playerEquipOperations.h" />
+    <ClInclude Include="..\..\src\playerItemContainerOperation.h" />
+    <ClInclude Include="..\..\src\playerPositionUpdate.h" />
+    <ClInclude Include="..\..\src\playerSkillOperations.h" />
+    <ClInclude Include="..\..\src\prepareTransferTicket.h" />
+    <ClInclude Include="..\..\src\requestCharacterList.h" />
+    <ClInclude Include="..\..\src\requestWorldList.h" />
+    <ClInclude Include="..\..\src\serverManager.h" />
+    <ClInclude Include="..\..\src\settings.h" />
+    <ClInclude Include="..\..\src\skillHandlerFactory.h" />
+    <ClInclude Include="..\..\src\skillHandler_1.h" />
+    <ClInclude Include="..\..\src\skillUser.h" />
+    <ClInclude Include="..\..\src\statCommand.h" />
+    <ClInclude Include="..\..\src\threadRunnable.h" />
+    <ClInclude Include="..\..\src\verifyTicket.h" />
+    <ClInclude Include="..\..\src\worldConnect.h" />
+    <ClInclude Include="..\..\src\worldSelect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common_src\characterCustomization.cpp" />
+    <ClCompile Include="..\..\..\common_src\characterCustomizationNetwork.cpp" />
+    <ClCompile Include="..\..\..\common_src\characterData.cpp" />
+    <ClCompile Include="..\..\..\common_src\collisionCheck.cpp" />
+    <ClCompile Include="..\..\..\common_src\combatEntity.cpp" />
+    <ClCompile Include="..\..\..\common_src\combatEntityStats.cpp" />
+    <ClCompile Include="..\..\..\common_src\formulas.cpp" />
+    <ClCompile Include="..\..\..\common_src\item.cpp" />
+    <ClCompile Include="..\..\..\common_src\itemCustomizationData.cpp" />
+    <ClCompile Include="..\..\..\common_src\itemManager.cpp" />
+    <ClCompile Include="..\..\..\common_src\mapCollisionData.cpp" />
+    <ClCompile Include="..\..\..\common_src\miscPlayerData.cpp" />
+    <ClCompile Include="..\..\..\common_src\mob.cpp" />
+    <ClCompile Include="..\..\src\abstractClient.cpp" />
+    <ClCompile Include="..\..\src\abstractServer.cpp" />
+    <ClCompile Include="..\..\src\abstractSkillHandlerNetwork.cpp" />
+    <ClCompile Include="..\..\src\applicationEntryPoint.cpp" />
+    <ClCompile Include="..\..\src\attackController.cpp" />
+    <ClCompile Include="..\..\src\chatChannel.cpp" />
+    <ClCompile Include="..\..\src\clientManager.cpp" />
+    <ClCompile Include="..\..\src\database.cpp" />
+    <ClCompile Include="..\..\src\gameMap.cpp" />
+    <ClCompile Include="..\..\src\GTGameClient.cpp" />
+    <ClCompile Include="..\..\src\GTGameServer.cpp" />
+    <ClCompile Include="..\..\src\GTGameWorldClient.cpp" />
+    <ClCompile Include="..\..\src\GTLoginClient.cpp" />
+    <ClCompile Include="..\..\src\GTLoginServer.cpp" />
+    <ClCompile Include="..\..\src\GTLoginServerClient.cpp" />
+    <ClCompile Include="..\..\src\log.cpp" />
+    <ClCompile Include="..\..\src\mapHandler.cpp" />
+    <ClCompile Include="..\..\src\mobAI_monster.cpp" />
+    <ClCompile Include="..\..\src\mobFactory.cpp" />
+    <ClCompile Include="..\..\src\mobNPC.cpp" />
+    <ClCompile Include="..\..\src\mobNPCFactory.cpp" />
+    <ClCompile Include="..\..\src\mobServer.cpp" />
+    <ClCompile Include="..\..\src\monster.cpp" />
+    <ClCompile Include="..\..\src\serverManager.cpp" />
+    <ClCompile Include="..\..\src\skillUser.cpp" />
+    <ClCompile Include="..\..\src\threadRunnable.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A3B8975-762D-47E0-964E-34AF7F18F33E}</ProjectGuid>
+    <RootNamespace>GTserver</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)../../bin/win32/$(Configuration)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)../../bin/win32/$(Configuration)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\include;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\include;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Source;C:\Libraries\mysql++-3.1.0\lib;C:\Libraries\mysqlCConnector\include;D:\Dropbox\GrandTale\Game\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>ALLEGRO_STATICLINK;GTSERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\lib\RelWithDebInfo;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Lib;C:\Libraries\mysql++-3.1.0\vc2008\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>RakNetLibStaticDebug.lib;ws2_32.lib;mysqlpp_d.lib;allegro-static.lib;allegro_main-static.lib;allegro_font-static.lib;allegro_primitives-static.lib;allegro_audio-static.lib;allegro_acodec-static.lib;allegro_image-static.lib;allegro_ttf-static.lib;opengl32.lib;Winmm.lib;Psapi.lib;Gdiplus.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Libraries\allegro-5.0.0-rc4-msvc-10.0\include;C:\Libraries\Raknet\Source;C:\Libraries\mysql++-3.1.0\lib;C:\Libraries\mysqlCConnector\include;C:\Users\BRAD\Dropbox\Grand Tale\Game\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ALLEGRO_STATICLINK;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Libraries\allegro-5.0.0-rc4-msvc-10.0\lib;C:\Libraries\Raknet\Lib;C:\Libraries\mysql++-3.1.0\vc2008\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>RakNetLibStatic.lib;ws2_32.lib;mysqlpp.lib;allegro-5.0.0-RC4-monolith-static-md.lib;opengl32.lib;Winmm.lib;Psapi.lib;Gdiplus.lib;dumb-0.9.3-static-md-debug.lib;libFLAC-1.2.1-static-md-debug.lib;libvorbis-1.3.2-static-md-debug.lib;libvorbisfile-1.3.2-static-md-debug.lib;libogg-1.2.1-static-md-debug.lib;freetype-2.4.4-static-md-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

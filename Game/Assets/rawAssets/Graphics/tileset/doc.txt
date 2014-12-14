@@ -1,0 +1,2 @@
+<DWORD> Width
+<DWORD> Height

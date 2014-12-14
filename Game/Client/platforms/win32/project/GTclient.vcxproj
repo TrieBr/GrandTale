@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\common_src\abstractItemContainerCallback.h" />
+    <ClInclude Include="..\..\..\..\common_src\item.h" />
+    <ClInclude Include="..\..\..\..\common_src\itemManager.h" />
+    <ClInclude Include="..\..\..\src\abstractDraggableWindow.h" />
+    <ClInclude Include="..\..\..\src\abstractEntity.h" />
+    <ClInclude Include="..\..\..\src\abstractSkillHandler.h" />
+    <ClInclude Include="..\..\..\src\abstractSkillHandlerDummy.h" />
+    <ClInclude Include="..\..\..\src\abstractWorld.h" />
+    <ClInclude Include="..\..\..\src\Actions.h" />
+    <ClInclude Include="..\..\..\src\backgroundManager.h" />
+    <ClInclude Include="..\..\..\src\button.h" />
+    <ClInclude Include="..\..\..\src\characterAnimation.h" />
+    <ClInclude Include="..\..\..\src\characterAnimationSequenceManager.h" />
+    <ClInclude Include="..\..\..\src\characterCustomization.h" />
+    <ClInclude Include="..\..\..\src\characterData.h" />
+    <ClInclude Include="..\..\..\src\characterIconRenderer.h" />
+    <ClInclude Include="..\..\..\src\characterImageManager.h" />
+    <ClInclude Include="..\..\..\src\characterRenderer.h" />
+    <ClInclude Include="..\..\..\src\crc32.h" />
+    <ClInclude Include="..\..\..\src\customAllegroInterface.h" />
+    <ClInclude Include="..\..\..\src\entityCharacterCreation.h" />
+    <ClInclude Include="..\..\..\src\entityCharacterSelect.h" />
+    <ClInclude Include="..\..\..\src\entityCharDeleteBox.h" />
+    <ClInclude Include="..\..\..\src\entityErrorBox.h" />
+    <ClInclude Include="..\..\..\src\entityGUICharacter.h" />
+    <ClInclude Include="..\..\..\src\entityGUIChat.h" />
+    <ClInclude Include="..\..\..\src\entityGUIInventory.h" />
+    <ClInclude Include="..\..\..\src\entityGUIMainBar.h" />
+    <ClInclude Include="..\..\..\src\entityGUINamePlate.h" />
+    <ClInclude Include="..\..\..\src\entityGUISkills.h" />
+    <ClInclude Include="..\..\..\src\entityLoginPanel.h" />
+    <ClInclude Include="..\..\..\src\entityPlayer.h" />
+    <ClInclude Include="..\..\..\src\entityPlayerDummy.h" />
+    <ClInclude Include="..\..\..\src\entityPlayerMe.h" />
+    <ClInclude Include="..\..\..\src\entityServerSelect.h" />
+    <ClInclude Include="..\..\..\src\gameEngine.h" />
+    <ClInclude Include="..\..\..\src\gameEngineFramerate.h" />
+    <ClInclude Include="..\..\..\src\gameEngineLogger.h" />
+    <ClInclude Include="..\..\..\src\gameEngineResources.h" />
+    <ClInclude Include="..\..\..\src\gameServer.h" />
+    <ClInclude Include="..\..\..\src\globalData.h" />
+    <ClInclude Include="..\..\..\src\globalFunctions.h" />
+    <ClInclude Include="..\..\..\src\iconManager.h" />
+    <ClInclude Include="..\..\..\src\itemCustomizationDataFetch.h" />
+    <ClInclude Include="..\..\..\src\itemTooltip.h" />
+    <ClInclude Include="..\..\..\src\loginServer.h" />
+    <ClInclude Include="..\..\..\src\mainMenuPanelTransition.h" />
+    <ClInclude Include="..\..\..\src\mapData.h" />
+    <ClInclude Include="..\..\..\src\mapHandler.h" />
+    <ClInclude Include="..\..\..\src\mapReader.h" />
+    <ClInclude Include="..\..\..\src\mobDummy.h" />
+    <ClInclude Include="..\..\..\src\monster.h" />
+    <ClInclude Include="..\..\..\src\monsterImageManager.h" />
+    <ClInclude Include="..\..\..\src\monsterRenderer.h" />
+    <ClInclude Include="..\..\..\src\myData.h" />
+    <ClInclude Include="..\..\..\src\npc.h" />
+    <ClInclude Include="..\..\..\src\packetIdentifiers.h" />
+    <ClInclude Include="..\..\..\src\physicsController.h" />
+    <ClInclude Include="..\..\..\src\playerSpeechBubble.h" />
+    <ClInclude Include="..\..\..\src\raceProperties.h" />
+    <ClInclude Include="..\..\..\src\resourcePack.h" />
+    <ClInclude Include="..\..\..\src\settings.h" />
+    <ClInclude Include="..\..\..\src\skillHandlerFactory.h" />
+    <ClInclude Include="..\..\..\src\skillHandlerList.h" />
+    <ClInclude Include="..\..\..\src\skillHandlerRunner.h" />
+    <ClInclude Include="..\..\..\src\skillHandler_1.h" />
+    <ClInclude Include="..\..\..\src\textbox.h" />
+    <ClInclude Include="..\..\..\src\tilesetManager.h" />
+    <ClInclude Include="..\..\..\src\tooltip.h" />
+    <ClInclude Include="..\..\..\src\tooltipManager.h" />
+    <ClInclude Include="..\..\..\src\worldGameMap.h" />
+    <ClInclude Include="..\..\..\src\worldMainMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\common_src\characterClass.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\characterCustomization.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\characterCustomizationNetwork.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\characterData.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\collisionCheck.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\combatEntity.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\combatEntityStats.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\equipmentConfiguration.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\formulas.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\item.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\itemCustomizationData.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\itemManager.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\mapCollisionData.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\miscPlayerData.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\mob.cpp" />
+    <ClCompile Include="..\..\..\..\common_src\skillManager.cpp" />
+    <ClCompile Include="..\..\..\src\abstractDraggableWindow.cpp" />
+    <ClCompile Include="..\..\..\src\abstractEntity.cpp" />
+    <ClCompile Include="..\..\..\src\abstractSkillHandlerDummyNetwork.cpp" />
+    <ClCompile Include="..\..\..\src\abstractSkillHandlerNetwork.cpp" />
+    <ClCompile Include="..\..\..\src\abstractWorld.cpp" />
+    <ClCompile Include="..\..\..\src\Actions.cpp" />
+    <ClCompile Include="..\..\..\src\backgroundManager.cpp" />
+    <ClCompile Include="..\..\..\src\button.cpp" />
+    <ClCompile Include="..\..\..\src\characterAnimation.cpp" />
+    <ClCompile Include="..\..\..\src\characterAnimationSequenceManager.cpp" />
+    <ClCompile Include="..\..\..\src\characterIconRenderer.cpp" />
+    <ClCompile Include="..\..\..\src\characterImageManager.cpp" />
+    <ClCompile Include="..\..\..\src\characterRenderer.cpp" />
+    <ClCompile Include="..\..\..\src\crc32.cpp" />
+    <ClCompile Include="..\..\..\src\customAllegroInterface.cpp" />
+    <ClCompile Include="..\..\..\src\entityCharacterCreation.cpp" />
+    <ClCompile Include="..\..\..\src\entityCharacterSelect.cpp" />
+    <ClCompile Include="..\..\..\src\entityCharDeleteBox.cpp" />
+    <ClCompile Include="..\..\..\src\entityErrorBox.cpp" />
+    <ClCompile Include="..\..\..\src\entityGUICharacter.cpp" />
+    <ClCompile Include="..\..\..\src\entityGUIChat.cpp" />
+    <ClCompile Include="..\..\..\src\entityGUIInventory.cpp" />
+    <ClCompile Include="..\..\..\src\entityGUIMainBar.cpp" />
+    <ClCompile Include="..\..\..\src\entityGUINamePlate.cpp" />
+    <ClCompile Include="..\..\..\src\entityGUISkills.cpp" />
+    <ClCompile Include="..\..\..\src\entityLoginPanel.cpp" />
+    <ClCompile Include="..\..\..\src\entityPlayer.cpp" />
+    <ClCompile Include="..\..\..\src\entityPlayerDummy.cpp" />
+    <ClCompile Include="..\..\..\src\entityPlayerMe.cpp" />
+    <ClCompile Include="..\..\..\src\entityServerSelect.cpp" />
+    <ClCompile Include="..\..\..\src\gameEngine.cpp" />
+    <ClCompile Include="..\..\..\src\gameEngineFramerate.cpp" />
+    <ClCompile Include="..\..\..\src\gameEngineLogger.cpp" />
+    <ClCompile Include="..\..\..\src\gameEngineResources.cpp" />
+    <ClCompile Include="..\..\..\src\gameServer.cpp" />
+    <ClCompile Include="..\..\..\src\gameServerPackets_Incoming_General.cpp" />
+    <ClCompile Include="..\..\..\src\globalData.cpp" />
+    <ClCompile Include="..\..\..\src\globalFunctions.cpp" />
+    <ClCompile Include="..\..\..\src\iconManager.cpp" />
+    <ClCompile Include="..\..\..\src\itemCustomizationDataFetch.cpp" />
+    <ClCompile Include="..\..\..\src\itemTooltip.cpp" />
+    <ClCompile Include="..\..\..\src\loginServer.cpp" />
+    <ClCompile Include="..\..\..\src\loginServerPackets.cpp" />
+    <ClCompile Include="..\..\..\src\main.cpp" />
+    <ClCompile Include="..\..\..\src\mapData.cpp" />
+    <ClCompile Include="..\..\..\src\mapHandler.cpp" />
+    <ClCompile Include="..\..\..\src\monster.cpp" />
+    <ClCompile Include="..\..\..\src\monsterImageManager.cpp" />
+    <ClCompile Include="..\..\..\src\monsterRenderer.cpp" />
+    <ClCompile Include="..\..\..\src\myData.cpp" />
+    <ClCompile Include="..\..\..\src\npc.cpp" />
+    <ClCompile Include="..\..\..\src\physicsController.cpp" />
+    <ClCompile Include="..\..\..\src\playerSpeechBubble.cpp" />
+    <ClCompile Include="..\..\..\src\resourcePack.cpp" />
+    <ClCompile Include="..\..\..\src\skillHandlerList.cpp" />
+    <ClCompile Include="..\..\..\src\skillHandlerRunner.cpp" />
+    <ClCompile Include="..\..\..\src\textbox.cpp" />
+    <ClCompile Include="..\..\..\src\tilesetManager.cpp" />
+    <ClCompile Include="..\..\..\src\tooltipManager.cpp" />
+    <ClCompile Include="..\..\..\src\worldGameMap.cpp" />
+    <ClCompile Include="..\..\..\src\worldMainMenu.cpp" />
+    <ClCompile Include="mobClient.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77BA7079-06C8-4C11-8BD2-761260C4A0B9}</ProjectGuid>
+    <RootNamespace>GTclient</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\..\..\..\bin\win32\$(Configuration)\</OutDir>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)\..\..\..\bin\win32\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\include;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\ttf;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\primitives;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\font;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\acodec;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\audio;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\image;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\include;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Source;D:\Dropbox\GrandTale\Game\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ALLEGRO_STATICLINK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <EnablePREfast>false</EnablePREfast>
+      <PreprocessToFile>false</PreprocessToFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\lib\RelWithDebInfo;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Lib;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\deps\Freetype2\lib;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\deps\libpng\lib;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\deps\zlib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>allegro-static.lib;allegro_main-static.lib;allegro_font-static.lib;allegro_primitives-static.lib;allegro_audio-static.lib;allegro_acodec-static.lib;allegro_image-static.lib;allegro_ttf-static.lib;opengl32.lib;Winmm.lib;Psapi.lib;Gdiplus.lib;RakNetLibStaticDebug.lib;ws2_32.lib;zlib.lib;libpng.lib;freetype.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Libraries\allegro-5.0.0-rc4-msvc-10.0\include;C:\Libraries\Raknet\Source;C:\Users\BRAD\Dropbox\Grand Tale\Game\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ALLEGRO_STATICLINK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Libraries\allegro-5.0.0-rc4-msvc-10.0\lib;C:\Libraries\Raknet\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>allegro-5.0.0-RC4-monolith-static-mt.lib;opengl32.lib;Winmm.lib;Psapi.lib;Gdiplus.lib;dumb-0.9.3-static-mt.lib;libFLAC-1.2.1-static-mt.lib;libvorbis-1.3.2-static-mt.lib;libvorbisfile-1.3.2-static-mt.lib;libogg-1.2.1-static-mt.lib;freetype-2.4.4-static-mt.lib;RakNetLibStatic.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,28 @@
+.anim is a type of file for storing character animations (eg. walking, idle, etc.) It has a number of keyframes and data associated with each keyframe. The file format is as follows:
+
+
+
+<FLOAT> Number of frames>
+ number of frames {
+	<FLOAT> Timing point
+	<FLOAT> Head x
+	<FLOAT> HEad y
+	<FLOAT> Head rotation
+	<FLOAT> body x
+	<FLOAT> body y
+	<FLOAT> body rotation
+	<FLOAT> left hand x
+	<FLOAT> left hand y
+	<FLOAT> left hand rotation
+	<FLOAT> right hand x
+	<FLOAT> right hand y
+	<FLOAT> right hand rotation
+	<FLOAT> left foot x
+	<FLOAT> left foot y
+	<FLOAT> left foot rotation
+	<FLOAT> left foot state
+	<FLOAT> right foot x
+	<FLOAT> right foot y
+	<FLOAT> right foot rotation
+	<FLOAT> right foot state
+ }

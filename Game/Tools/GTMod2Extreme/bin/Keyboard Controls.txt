@@ -1,0 +1,13 @@
+[Q] = Rotate Counter Clockwise
+[E] = Rotate Clockwise
+[W,A,S,D] = Move Up, Left, Down, Right
+
+[Z] = Toggle foot stance (front, side)
+[Space] = Switch Body Part
+
+[Left Click+Drag on Slider] = Move current frame to a different position
+[Right Click on Slider] = Insert a new frame at that position.
+
+
+1 Save animation
+2 Open animation

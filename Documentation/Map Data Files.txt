@@ -1,0 +1,46 @@
+DWORD - Settings Offset
+DWORD - Collision Data Offset
+DWORD - Tile Data Offset
+DWORD - Background Data Offset
+
+<Settings>
+INT - Left side of map
+INT - Top side of map
+INT - Right side of map
+INT - Bottom side of map
+
+<Collision Data>
+INT - Number of collision lines
+	for each collision line {
+		INT - line beginning x
+		INT - line beginning y
+		INT - line end x
+		INT - line end y
+		BOOL - is Jumpthrough line
+	}
+
+
+<Tile Data>
+INT - Number of tile layers
+	for each tile layer {
+		INT - Number of layouts
+			for each layout {
+				SHORT - Tile set ID
+				INT - Number of tiles
+					for each tile {
+						INT - X position on map
+						INT - Y position on map
+						SHORT - X position on tileset
+						SHORT - Y position on tileset
+					}
+			}
+	
+	}
+
+<Background Data>
+INT - Number of layers
+	for each layer {
+		INT - background ID
+		INT - x position
+		INT - Y position
+	}

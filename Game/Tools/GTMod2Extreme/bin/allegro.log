@@ -1,0 +1,4 @@
+system   W            wsystem.c:504  load_library_at_path             [   0.00318] Failed to load D:\Dropbox\GrandTaleRemastered\Old\Game\Tools\GTMod2Extreme\bin\d3d9.dll (error: 126)
+system   I            wsystem.c:497  load_library_at_path             [   0.00417] Loaded C:\Windows\system32\d3d9.dll
+d3d      I         d3d_disp.cpp:866  _al_d3d_init_display             [   0.00861] Render-to-texture: 1
+system   I             system.c:238  al_install_system                [   0.00866] Allegro version: 5.0.0 (RC4)

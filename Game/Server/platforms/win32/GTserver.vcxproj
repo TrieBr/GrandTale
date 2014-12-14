@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -120,14 +120,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -149,13 +149,13 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\include;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\include;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Source;C:\Libraries\mysql++-3.1.0\lib;C:\Libraries\mysqlCConnector\include;D:\Dropbox\GrandTale\Game\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(LIBALLEGRO_DIR)\build-win32-msvc\include;$(LIBALLEGRO_DIR)\include;$(LIBRAKNET_DIR)\Source;C:\Libraries\mysql++-3.1.0\lib;C:\Libraries\mysql-connector-c-6.1.5-win32\include;..\..\..\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PreprocessorDefinitions>ALLEGRO_STATICLINK;GTSERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\lib\RelWithDebInfo;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Lib;C:\Libraries\mysql++-3.1.0\vc2008\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(LIBALLEGRO_DIR)\build-win32-msvc\lib\RelWithDebInfo;$(LIBRAKNET_DIR)\Lib;C:\Libraries\mysql++-3.1.0\vc2008\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>RakNetLibStaticDebug.lib;ws2_32.lib;mysqlpp_d.lib;allegro-static.lib;allegro_main-static.lib;allegro_font-static.lib;allegro_primitives-static.lib;allegro_audio-static.lib;allegro_acodec-static.lib;allegro_image-static.lib;allegro_ttf-static.lib;opengl32.lib;Winmm.lib;Psapi.lib;Gdiplus.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

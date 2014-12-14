@@ -15,8 +15,8 @@ void* cAI_fopen(const char *path, const char *mode) {
 	return NULL;
 }
 
-void cAI_fclose(ALLEGRO_FILE *f) {
-
+bool cAI_fclose(ALLEGRO_FILE *f) {
+	return true;
 }
 
 size_t cAI_fread(ALLEGRO_FILE *f, void *ptr, size_t size) {
@@ -73,8 +73,8 @@ bool cAI_feof(ALLEGRO_FILE *f) {
 	}
 	return false;
 }
-bool cAI_ferror(ALLEGRO_FILE *f) {
-	return false;
+int cAI_ferror(ALLEGRO_FILE *f) {
+	return 0;
 }
 
 void cAI_fclearerr(ALLEGRO_FILE *f) {

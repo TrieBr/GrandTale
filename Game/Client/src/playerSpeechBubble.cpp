@@ -29,7 +29,7 @@
 		surfaceHeight = 130;
 		bubbleBitmap = al_create_bitmap(surfaceWidth,surfaceHeight);
 		rectangleWidth = 200;
-		rectangleHeight = std::max(32,gameEngine::globalFunctions::drawTextWrapped(textFont,0,200-16,6,200,al_map_rgb(0,0,0),0,textToDisplay)+16);
+		rectangleHeight = max(32,gameEngine::globalFunctions::drawTextWrapped(textFont,0,200-16,6,200,al_map_rgb(0,0,0),0,textToDisplay)+16);
 		renderBubble(0,0,textToDisplay);
 		scale = 0;
 		alpha = 1;

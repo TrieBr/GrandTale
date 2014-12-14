@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -173,14 +173,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -204,7 +204,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\include;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\ttf;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\primitives;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\font;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\acodec;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\audio;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\addons\image;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\include;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Source;D:\Dropbox\GrandTale\Game\common_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(LIBALLEGRO_DIR)\include;$(LIBALLEGRO_DIR)\addons\ttf;$(LIBALLEGRO_DIR)\addons\primitives;$(LIBALLEGRO_DIR)\addons\font;$(LIBALLEGRO_DIR)\addons\acodec;$(LIBALLEGRO_DIR)\addons\audio;$(LIBALLEGRO_DIR)\addons\image;$(LIBALLEGRO_DIR)\build-win32-msvc\include;$(LIBRAKNET_DIR)\Source;..\..\..\..\common_src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>ALLEGRO_STATICLINK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <EnablePREfast>false</EnablePREfast>
@@ -212,7 +212,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\lib\RelWithDebInfo;D:\Dropbox\GrandTale\Game\Libraries\RakNet_PC-4.066\Lib;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\deps\Freetype2\lib;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\deps\libpng\lib;D:\Dropbox\GrandTale\Game\Libraries\allegro5.1.7\build-win32-msvc\deps\zlib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(LIBALLEGRO_DIR)\build-win32-msvc\lib\RelWithDebInfo;$(LIBRAKNET_DIR)\Lib;$(LIBALLEGRO_DIR)\build-win32-msvc\deps\freetype\lib;$(LIBALLEGRO_DIR)\build-win32-msvc\deps\libpng\lib;$(LIBALLEGRO_DIR)\build-win32-msvc\deps\zlib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>allegro-static.lib;allegro_main-static.lib;allegro_font-static.lib;allegro_primitives-static.lib;allegro_audio-static.lib;allegro_acodec-static.lib;allegro_image-static.lib;allegro_ttf-static.lib;opengl32.lib;Winmm.lib;Psapi.lib;Gdiplus.lib;RakNetLibStaticDebug.lib;ws2_32.lib;zlib.lib;libpng.lib;freetype.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <Profile>true</Profile>
     </Link>

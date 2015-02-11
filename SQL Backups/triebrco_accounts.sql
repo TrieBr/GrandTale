@@ -38,7 +38,7 @@ CREATE TABLE `members` (triebrco_accounts
 
 LOCK TABLES `members` WRITE;
 /*!40000 ALTER TABLE `members` DISABLE KEYS */;
-INSERT INTO `members` (`id`, `username`, `password`, `email`, `creationDate`) VALUES (1,'','','',0),(2,'Brad','test','triebr@gmail.com',1317190555),(3,'sticky','buns','',1317346895),(4,'ethelon','anorangenarwhal','',1318467002);
+INSERT INTO `members` (`id`, `username`, `password`, `email`, `creationDate`) VALUES (1,'','','',0),(2,'Brad',' 098f6bcd4621d373cade4e832627b4f6','triebr@gmail.com',1317190555),(3,'sticky',' 098f6bcd4621d373cade4e832627b4f6','',1317346895),(4,'ethelon','098f6bcd4621d373cade4e832627b4f6','',1318467002);
 /*!40000 ALTER TABLE `members` ENABLE KEYS */;
 UNLOCK TABLES;
 
